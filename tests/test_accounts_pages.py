@@ -1,5 +1,6 @@
 # tests/test_accounts_pages.py
 import pytest
+
 from django.test import Client
 from django.urls import reverse
 

@@ -1,7 +1,17 @@
 {
-    "[python]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.codeActionsOnSave": {}
-    },
+  "pylint.path": [".", "${workspaceFolder}/djpoe"],
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {}
+  },
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/djpoe",
+    "${workspaceFolder}/tests",
+    "${workspaceFolder}"
+  ],
+  "[django-html]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+  }
 }
