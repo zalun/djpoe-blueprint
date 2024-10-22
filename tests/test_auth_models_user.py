@@ -1,5 +1,6 @@
 # tests/test_auth_models_user.py
 import pytest
+
 from django.contrib.auth.models import User
 
 
